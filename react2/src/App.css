@@ -1,0 +1,51 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, input, button {
+    margin: 10px 0;
+} 
+
+input, button, select {
+    padding: 8px;
+}
+
+.center-input {
+    display: block;
+    margin: 15px auto;
+}
+
+.container {
+    max-width: 1080px;
+    margin: 15px auto;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.tasks-ul {
+    width: 500px;
+    margin: auto;
+}
+
+/*a 500px széles lesz és a margin auto miatt középre fog kerülni*/
+
+.tasks-ul li {
+    list-style: none; /*nem lesznek pontok a lista felsorolásban*/
+    height: 40px;
+    margin-bottom: 10px; /*az li elemek egymástól 10px-re fognak elhelyezkedni egymás alatt*/
+    line-height: 40px; /*ez ugyanolyan magas lesz mint a sima magasság, hogy a szöveg amitt majd bele fogunk írni az középen lesz*/
+    border: 1px solid grey; /*border, hogy jobban nézzen ki és, hogy elkülönüljenek egymástól*/
+}
+
+.small.input { 
+/*
+a gomb amit csináltunk az li-ek mellé, gyakorlatilag minden li-ben lesz egy ilyen gomb 
+és ha megoldottuk a feladatot, akkor töröljük a listából
+*/
+    padding: 3px;
+    margin: 0 15px; /*fent-lent a margin 0 bal-jobb 15px*/
+}
